@@ -36,13 +36,30 @@
     <main class="main">
       <div class="container">
         <section class="card">
-          <h2>账号登录（演示页面）</h2>
-          <p class="hint">这是虚拟功能页，用于演示跳转流程。</p>
-          <ul class="list">
-            <li>账号：demo@qianshuiyu.com</li>
-            <li>密码：******（演示隐藏）</li>
-            <li>状态：登录功能为静态演示，不做真实鉴权</li>
-          </ul>
+          <h2>账号登录</h2>
+          <p class="hint">演示登录页面，用于展示业务系统入口形态。</p>
+          <div class="form-grid">
+            <div class="field">
+              <label>账号/邮箱</label>
+              <input type="text" value="demo@qianshuiyu.com" />
+            </div>
+            <div class="field">
+              <label>密码</label>
+              <input type="password" value="123456" />
+            </div>
+            <div class="field">
+              <label>登录身份</label>
+              <select>
+                <option>采购客户</option>
+                <option>渠道商</option>
+                <option>运营管理员</option>
+              </select>
+            </div>
+          </div>
+          <div class="panel">
+            <span class="pill">演示说明</span>
+            当前为静态演示页面，不进行真实账户鉴权。
+          </div>
           <div class="actions">
             <a class="btn" href="./register.html">还没有账号？去注册</a>
             <a class="btn btn-secondary" href="./index.html">返回首页</a>

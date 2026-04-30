@@ -36,13 +36,82 @@
     <main class="main">
       <div class="container">
         <section class="card">
-          <h2>产品中心（演示页面）</h2>
-          <p class="hint">用于模拟产品列表与价格信息。</p>
-          <ul class="list">
-            <li>QSY-195A 商务显示器：￥550</li>
-            <li>QSY-240B 窄边框显示器：￥799</li>
-            <li>QSY-270G 电竞显示器：￥1299</li>
-          </ul>
+          <h2>产品中心（现货清单）</h2>
+          <p class="hint">以下为演示商品数据，可用于客户预览选型与报价流程。</p>
+          <div class="grid">
+            <article class="goods">
+              <img src="./images/product-1.svg" alt="QSY-195A" />
+              <h4>QSY-195A 商务办公屏</h4>
+              <p>标准办公机型，适合企业批量采购。</p>
+            </article>
+            <article class="goods">
+              <img src="./images/product-2.svg" alt="QSY-240B" />
+              <h4>QSY-240B 窄边框办公屏</h4>
+              <p>兼顾外观与成本，适合前台与行政场景。</p>
+            </article>
+            <article class="goods">
+              <img src="./images/product-3.svg" alt="QSY-270G" />
+              <h4>QSY-270G 电竞高刷屏</h4>
+              <p>高刷新率，适用于电竞门店与展示厅。</p>
+            </article>
+          </div>
+          <div class="table-wrap">
+            <table class="product-table">
+              <thead>
+                <tr>
+                  <th>型号</th>
+                  <th>规格参数</th>
+                  <th>参考价</th>
+                  <th>库存</th>
+                  <th>状态</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>QSY-195A</td>
+                  <td>19.5寸 / 75Hz / HDMI+VGA</td>
+                  <td>￥550</td>
+                  <td>128</td>
+                  <td><span class="status ok">现货</span></td>
+                </tr>
+                <tr>
+                  <td>QSY-220P</td>
+                  <td>21.5寸 / 广视角 / 收银门店专用</td>
+                  <td>￥699</td>
+                  <td>150</td>
+                  <td><span class="status ok">现货</span></td>
+                </tr>
+                <tr>
+                  <td>QSY-240B</td>
+                  <td>23.8寸 / IPS / 100Hz / 窄边框</td>
+                  <td>￥799</td>
+                  <td>96</td>
+                  <td><span class="status hot">热卖</span></td>
+                </tr>
+                <tr>
+                  <td>QSY-270G</td>
+                  <td>27寸 / 165Hz / 1ms 电竞屏</td>
+                  <td>￥1299</td>
+                  <td>64</td>
+                  <td><span class="status ok">现货</span></td>
+                </tr>
+                <tr>
+                  <td>QSY-320D</td>
+                  <td>32寸 / 2K / 双 HDMI / 会议屏</td>
+                  <td>￥1899</td>
+                  <td>42</td>
+                  <td><span class="status ok">现货</span></td>
+                </tr>
+                <tr>
+                  <td>QSY-270C</td>
+                  <td>27寸 / 2K / 99% sRGB 专业屏</td>
+                  <td>￥2199</td>
+                  <td>28</td>
+                  <td><span class="status plan">预定</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <div class="actions">
             <a class="btn" href="./favorite.html">加入收藏</a>
             <a class="btn btn-secondary" href="./index.html">返回首页</a>

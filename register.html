@@ -36,13 +36,30 @@
     <main class="main">
       <div class="container">
         <section class="card">
-          <h2>账号注册（演示页面）</h2>
-          <p class="hint">这是虚拟功能页，用于演示跳转流程。</p>
-          <ul class="list">
-            <li>填写信息：手机号、验证码、密码、企业名称</li>
-            <li>提交状态：资料校验中（演示）</li>
-            <li>提示：当前为静态页面，不会真实创建账号</li>
-          </ul>
+          <h2>账号注册</h2>
+          <p class="hint">演示注册页面，展示用户开通流程与字段。</p>
+          <div class="form-grid">
+            <div class="field">
+              <label>手机号</label>
+              <input type="text" value="13800000000" />
+            </div>
+            <div class="field">
+              <label>短信验证码</label>
+              <input type="text" value="6589" />
+            </div>
+            <div class="field">
+              <label>企业名称</label>
+              <input type="text" value="杭州潜水鱼电子商务有限公司" />
+            </div>
+            <div class="field">
+              <label>设置密码</label>
+              <input type="password" value="123456" />
+            </div>
+          </div>
+          <div class="panel">
+            <span class="pill">演示状态</span>
+            资料提交成功，待平台审核（预计 1 个工作日内完成）。
+          </div>
           <div class="actions">
             <a class="btn" href="./login.html">已有账号，去登录</a>
             <a class="btn btn-secondary" href="./index.html">返回首页</a>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>杭州潜水鱼电子商务有限公司</title>
+    <style>
+      body { margin: 0; font-family: "Microsoft YaHei", sans-serif; background: #f3f3f3; color: #1f2937; }
+      .top { background: #2d2d2d; color: #fff; padding: 8px 0; font-size: 12px; }
+      .wrap { width: min(1100px, 92%); margin: 0 auto; }
+      .between { display: flex; justify-content: space-between; gap: 10px; }
+      .top a { color: #fff; text-decoration: none; margin-left: 12px; }
+      .navbox { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 16px 0; }
+      .brand { font-size: 22px; font-weight: 700; margin: 0; }
+      .sub { margin: 4px 0 0; color: #6b7280; font-size: 12px; }
+      .nav a { color: #111827; text-decoration: none; margin-left: 16px; }
+      .banner { background: #f05a5a; color: #fff; padding: 54px 0; }
+      .title { font-size: 42px; margin: 8px 0; }
+      .btn { display: inline-block; background: #1999d6; color: #fff; text-decoration: none; padding: 8px 14px; border-radius: 4px; }
+      .sec { padding: 44px 0; }
+      .h3 { text-align: center; font-size: 30px; margin: 0 0 24px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+      .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 6px; padding: 10px; text-align: center; }
+      .thumb { height: 120px; border-radius: 4px; background: linear-gradient(135deg,#0ea5e9,#6366f1); }
+      .foot { background: #2f2f2f; color: #d1d5db; text-align: center; padding: 16px 0; }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="wrap between">
+        <div>欢迎来到杭州潜水鱼电子商务有限公司</div>
+        <div><a href="#">商家入驻</a><a href="#">收藏</a><a href="#">登录</a><a href="#">注册</a></div>
+      </div>
+    </div>
+    <div class="navbox">
+      <div class="wrap between">
+        <div>
+          <p class="brand">杭州潜水鱼电子商务有限公司</p>
+          <p class="sub">Hangzhou Diving Fish E-commerce Co., Ltd.</p>
+        </div>
+        <nav class="nav"><a href="#">首页</a><a href="#">展示厅</a><a href="#">解决方案</a><a href="#">产品中心</a><a href="#">联系我们</a></nav>
+      </div>
+    </div>
+
+    <section class="banner">
+      <div class="wrap">
+        <p>品质显示设备推荐</p>
+        <h1 class="title">时尚高清屏 19.5 寸</h1>
+        <p>适用于办公、店铺收银、展示陈列等多场景。限时价格 ￥550</p>
+        <a class="btn" href="#">点击抢购</a>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="wrap">
+        <h3 class="h3">显示器产品展示</h3>
+        <div class="grid">
+          <div class="card"><div class="thumb"></div><p>商务办公系列</p></div>
+          <div class="card"><div class="thumb"></div><p>曲面电竞系列</p></div>
+          <div class="card"><div class="thumb"></div><p>高刷电竞系列</p></div>
+          <div class="card"><div class="thumb"></div><p>轻薄家用系列</p></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="foot">© <span id="y"></span> 杭州潜水鱼电子商务有限公司 版权所有</div>
+    <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+  </body>
+</html>
