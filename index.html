@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="杭州潜水鱼电子商务有限公司官方网站" />
+    <title>杭州潜水鱼电子商务有限公司</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="topbar">
+        <div class="container topbar-inner">
+          <p>欢迎来到杭州潜水鱼电子商务有限公司</p>
+          <div class="topbar-links">
+            <a href="./merchant.html">商家入驻</a>
+            <a href="./favorite.html">收藏</a>
+            <a href="./login.html">登录</a>
+            <a href="./register.html">注册</a>
+          </div>
+        </div>
+      </div>
+      <div class="main-header">
+        <div class="container header-inner">
+          <div class="brand">
+            <h1>杭州潜水鱼电子商务有限公司</h1>
+            <p>Hangzhou Diving Fish E-commerce Co., Ltd.</p>
+          </div>
+          <nav class="nav">
+            <a href="./index.html">首页</a>
+            <a href="./showroom.html">展示厅</a>
+            <a href="./solution.html">解决方案</a>
+            <a href="./products.html">产品中心</a>
+            <a href="./contact.html">联系我们</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="banner">
+        <button class="banner-arrow banner-arrow-left" type="button" aria-label="上一张">
+          ‹
+        </button>
+        <div class="container banner-inner">
+          <div class="banner-image"></div>
+          <div class="banner-text">
+            <p class="banner-subtitle">品质显示设备推荐</p>
+            <h2 id="banner-title">时尚高清屏 19.5 寸</h2>
+            <p id="banner-desc">适用于办公、店铺收银、展示陈列等多场景。</p>
+            <div class="banner-price">
+              限时价格 <strong id="banner-price">￥550</strong>
+            </div>
+            <a class="banner-btn" href="./products.html">点击抢购</a>
+          </div>
+        </div>
+        <button class="banner-arrow banner-arrow-right" type="button" aria-label="下一张">
+          ›
+        </button>
+        <div class="banner-dots">
+          <button class="dot active" type="button" aria-label="轮播 1"></button>
+          <button class="dot" type="button" aria-label="轮播 2"></button>
+          <button class="dot" type="button" aria-label="轮播 3"></button>
+        </div>
+      </section>
+
+      <section id="showcase" class="section">
+        <div class="container">
+          <h3 class="section-title">显示器产品展示</h3>
+          <div class="product-grid">
+            <article class="product"><div class="thumb t1"></div><p>商务办公系列</p></article>
+            <article class="product"><div class="thumb t2"></div><p>曲面电竞系列</p></article>
+            <article class="product"><div class="thumb t3"></div><p>高刷电竞系列</p></article>
+            <article class="product"><div class="thumb t4"></div><p>轻薄家用系列</p></article>
+            <article class="product"><div class="thumb t5"></div><p>设计师专业系列</p></article>
+            <article class="product"><div class="thumb t6"></div><p>前台收银系列</p></article>
+            <article class="product"><div class="thumb t7"></div><p>教育培训系列</p></article>
+            <article class="product"><div class="thumb t8"></div><p>会议展示系列</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h3 class="section-title">公司简介</h3>
+          <p>
+            杭州潜水鱼电子商务有限公司专注于电商渠道与显示设备领域，
+            为中小企业提供线上销售、品牌展示与产品运营支持服务。
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="section section-alt">
+        <div class="container">
+          <h3 class="section-title">核心服务</h3>
+          <div class="cards">
+            <article class="card">
+              <h4>渠道运营</h4>
+              <p>覆盖主流电商平台，提供店铺搭建、活动策划与日常代运营。</p>
+            </article>
+            <article class="card">
+              <h4>产品供应</h4>
+              <p>整合稳定供应链资源，支持批发、定制与售后服务协同。</p>
+            </article>
+            <article class="card">
+              <h4>品牌营销</h4>
+              <p>以内容和投放组合方式，提高品牌曝光与转化效率。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h3 class="section-title">联系我们（首页预览）</h3>
+          <ul class="contact-list">
+            <li>公司名称：杭州潜水鱼电子商务有限公司</li>
+            <li>联系电话：138-0000-0000</li>
+            <li>联系邮箱：contact@qianshuiyu.com</li>
+            <li>联系地址：浙江省杭州市（请替换为实际地址）</li>
+          </ul>
+
+          <form id="contact-form" class="contact-form">
+            <h4>在线咨询</h4>
+            <label for="name">姓名</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="phone">手机号</label>
+            <input id="phone" name="phone" type="tel" required />
+
+            <label for="message">留言内容</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">提交留言</button>
+            <p id="form-status" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> 杭州潜水鱼电子商务有限公司 版权所有</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
